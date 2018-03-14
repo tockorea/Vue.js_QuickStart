@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>06-06</title>
+  <script src="https://unpkg.com/vue"></script>
+</head>
+<script>
+  Vue.component('option-component', {
+    template: '<option>hello</option>'
+  })
+</script>
+
+<body>
+  <div id="app">
+    <select>
+      <option-component></option-component>
+      <option-component></option-component>
+    </select>
+  </div>
+</body>
+<script>
+  Vue.config.devtools = true;
+  var v = new Vue({
+    el: '#app'
+  })
+</script>
+
+</html>
