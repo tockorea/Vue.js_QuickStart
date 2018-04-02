@@ -1,4 +1,4 @@
-var BASE_URL = "/api";
+var BASE_URL = "http://sample.bmaster.kro.kr";
 
 export default {
   // 한 페이지에 보여줄 페이지 사이즈
